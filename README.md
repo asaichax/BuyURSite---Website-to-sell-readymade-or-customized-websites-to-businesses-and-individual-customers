@@ -23,6 +23,10 @@
 
 > `git push origin <your-branch-name>`
 
+##### Get latest changes
+> `git pull origin main`
+
 ### Points
 * Keep code reusable and clean
 * validate html and css file before commiting code
+* Always create branch from main branch
