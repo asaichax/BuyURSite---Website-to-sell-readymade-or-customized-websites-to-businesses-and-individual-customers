@@ -1,15 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Branc Name</title>
-</head>
-<body>
-        <header></header>
-        <nav></nav>
-        <main></main>
-        <footer></footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brand Name</title>
+    <!-- The link to the external CSS file -->
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <header></header>
+    <!-- start nav section  -->
+    <nav>
+        <!-- css container for nav  -->
+        <div class="nav-container">
+               <div class="logo">
+                 <a href="#">Brand Name</a>
+               </div>
+               <!-- checkbox to create responsive menu  -->
+               <input type="checkbox" id="nav-check">
+               <!-- label for nav toggler (menu icon)  -->
+               <label for="nav-check" class="nav-toggler">
+                  <span></span>
+               </label>
+               <!-- nav menu  -->
+               <div class="nav-menu">
+                  <ul>
+                    <!-- menu items with Link  -->
+                     <li><a href="#" class="active">home</a></li>
+                     <li><a href="about.html">about</a></li>
+                     <li><a href="services.html">services</a></li>
+                     <li><a href="contact.html">contact</a></li>
+                  </ul>
+                </div>
+        </div>
+    </nav>
+    <!-- end nav section -->
+    <main></main>
+    <footer></footer>
+  </body>
 </html>
