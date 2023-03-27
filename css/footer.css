@@ -1,0 +1,48 @@
+footer{
+    background-color: #F8F8FA;   
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.col1 {
+    float: left;
+    padding-left: 250px;
+}
+
+.col2 {
+    float: left;
+    padding-left: 150px;
+    line-height: 2em;
+}
+
+.col2 table tr td{
+   padding-left: 20px;
+}
+
+.hours{
+    padding-left: 20px;
+}
+
+
+.col3 {
+    float: left;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+.copyright {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.row {
+    padding: 10px 0;
+}
+
+.row a {
+    text-decoration: none;
+    color: black;
+}
