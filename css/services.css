@@ -1,0 +1,15 @@
+.svc-img{
+    height: 150px;
+    margin: auto;
+}
+.svc-name{
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+.svc-text {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.9);
+    letter-spacing: 0.06em;
+}
