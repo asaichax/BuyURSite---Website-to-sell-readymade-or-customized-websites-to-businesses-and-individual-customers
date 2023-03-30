@@ -4,6 +4,48 @@ body{
     font-family: "poppins";
     background-color: #F8F8FA;
 }
+
+/*navigation */
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 40%;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 21px;
+    letter-spacing: 2px;
+}
+
+.nav-container{
+    width: 60%;
+    display: flex;
+    justify-content: end;
+}
+
+.nav-container > a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 20px;
+    line-height: 1.4em;
+}
+
+.nav-container > a:hover{
+    color: white;
+}
+
+.active{
+    color: white !important;
+}
+
+/*navigation*/
 .content-padding{
     padding: 4% 9% 1%;
 }
@@ -100,6 +142,23 @@ body{
     font-size: 12px;
    }
 }
+@media only screen and (max-width:650px){
+    .logo {
+        width: 100%;
+       text-align: center;
+    }
+    .nav-container{
+        width: 100%;
+        margin-top: 15px;
+        justify-content: space-around;
+    }
+    .pt0{
+        padding-top: 0 !important;
+    }
+    .mt0{
+        margin-top: 0 !important;
+    }
+ }
 
 @media only screen and (max-width:550px){
     .banner > p {
