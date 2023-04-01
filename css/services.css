@@ -1,6 +1,10 @@
 .svc-img{
-    height: 150px;
-    margin: auto;
+    display: flex;
+    height: 100px;
+    padding: 20px 10px;
+}
+.svc-img img {
+    width: 100%;
 }
 .svc-name{
     text-align: center;

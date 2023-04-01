@@ -35,11 +35,11 @@ form {
 }
 
 .firstname{
-    margin: auto 1% auto auto;
+    margin: auto 1% 10px auto;
 }
 
 .lastname{
-    margin: auto auto auto 1%;
+    margin: auto auto 10px 1%;
 }
 
 input, select, textarea {
@@ -56,10 +56,12 @@ input:focus, select:focus, textarea:focus {
 
 textarea {
     width: 98%;
+    margin-bottom: 10px;
 }
 
 select {
     width: 100%;
+    margin-bottom: 10px;
 }
 
 input[type=submit]{

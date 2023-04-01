@@ -149,14 +149,21 @@ body{
     }
     .nav-container{
         width: 100%;
-        margin-top: 15px;
+        margin: 30px 0;
         justify-content: space-around;
+        margin-bottom: 0;
     }
     .pt0{
         padding-top: 0 !important;
     }
     .mt0{
         margin-top: 0 !important;
+    }
+    .text-align-center-m{
+        text-align: center;
+    }
+    .heading{
+        margin-top: 0;
     }
  }
 
