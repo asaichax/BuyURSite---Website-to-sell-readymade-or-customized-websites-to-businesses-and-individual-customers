@@ -1,54 +1,70 @@
-footer{
+/* Style sheet created by: Group(Tanej, Karthik, Saichand, Umanga, Yuzan) */
+/*Styles specific to footer*/
+
+
+/*styles for footer general background*/
+footer {
     background-color: #F8F8FA;   
 }
 
+
+/*styles for common flex design*/
 .flex {
     display: flex;
     justify-content: space-between;
 }
 
+/*styles for column 1 in footer*/
 .col1 {
     float: left;
 }
 
+/*styles for column 2 in footer*/
 .col2 {
     float: left;
     line-height: 2em;
 }
 
-.col2 table tr td{
+/*styles for table in column 2*/
+.col2 table tr td {
    padding-left: 20px;
 }
 
-.hours{
+/*styles for specific to element*/
+.hours {
     padding-left: 20px;
 }
 
-
+/*styles for button container*/
 .col3 {
     display: flex;
     float: left;
     padding-top: 20px;
 }
 
+/*styles for copyright text*/
 .copyright {
     text-align: center;
     padding-bottom: 20px;
 }
 
+/*styles for footer row*/
 .row {
     padding: 10px 0;
 }
 
+/*styles for links in footer*/
 .row a {
     text-decoration: none;
     color: black;
 }
 
+/*styles for hover effect links in footer*/
 .row a:hover {
     color: #0F57FB;
 }
 
+/*styles for large screen*/
 @media only screen and (max-width:1010px) {
     .row h3 {
         font-size: 14px;
@@ -64,6 +80,8 @@ footer{
         padding-left: 0;
     }
 }
+
+/*styles for large screen*/
 @media only screen and (max-width:800px) {
     .flex {
         flex-wrap: wrap;
@@ -81,6 +99,8 @@ footer{
         width: 100%;
     }
 }
+
+/*styles for mobile*/
 @media only screen and (max-width:400px) {
     .col1, .col2 {
         width: 100%;

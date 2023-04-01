@@ -1,17 +1,27 @@
-.svc-img{
+/* Style sheet created by: Group(Tanej, Karthik, Saichand, Umanga, Yuzan) */
+/*These styles are specific to elements in services page*/
+
+/*Styles for serices image container*/
+.svc-img {
     display: flex;
     height: 100px;
     padding: 20px 10px;
 }
+
+/*Styles for services image*/
 .svc-img img {
     width: 100%;
 }
+
+/*Styles for servies name*/
 .svc-name{
     text-align: center;
     margin: 0;
     font-weight: bold;
     font-size: 16px;
 }
+
+/*Styles for sercies text*/
 .svc-text {
     font-size: 14px;
     color: rgba(0, 0, 0, 0.9);

@@ -1,17 +1,21 @@
-body{
+/* Style sheet created by: Group(Tanej, Karthik, Saichand, Umanga, Yuzan) */
+/*This is common css file for all files.*/
+
+/*Styles for body tag*/
+body {
     padding: 0;
     margin: 0;
     font-family: "poppins";
     background-color: #F8F8FA;
 }
 
-/*navigation */
-
-.navbar{
+/*Styles for navigation bar*/
+.navbar {
     display: flex;
     flex-wrap: wrap;
 }
 
+/*Styles for brand name*/
 .logo {
     width: 40%;
     color: #FFFFFF;
@@ -23,12 +27,14 @@ body{
     letter-spacing: 2px;
 }
 
-.nav-container{
+/*Styles for navigation container*/
+.nav-container {
     width: 60%;
     display: flex;
     justify-content: end;
 }
 
+/*Styles for links navigation bar*/
 .nav-container > a {
     margin-left: 20px;
     text-decoration: none;
@@ -37,26 +43,32 @@ body{
     line-height: 1.4em;
 }
 
-.nav-container > a:hover{
+/*Styles for hover effect links navigation bar*/
+.nav-container > a:hover {
     color: white;
 }
 
-.active{
+/*Styles for navigation bar*/
+.active {
     color: white !important;
 }
 
-/*navigation*/
-.content-padding{
+/*Styles for general container around content*/
+.content-padding {
     padding: 4% 9% 1%;
 }
-.blue{
+
+/*Styles for common background color*/
+.blue {
     background-color: #0F57FB;
 }
 
+/*Styles for common white color*/
 .white{
     color: white;
 }
 
+/*Styles for headings*/
 .heading {
     margin-bottom: 0;
     color: white;
@@ -64,20 +76,22 @@ body{
     letter-spacing: 1px;
 }
 
-.heading-text{
+/*Styles for heading text*/
+.heading-text {
     color: rgba(255, 255, 255, 0.75);
     font-size: 20px;
     line-height: 1.4em;
 }
 
-/* Banner */
-.banner{
+/*Styles for banner*/
+.banner {
     background-color: #0F57FB;
     margin: 0 9%;
     display: flex;
     padding: 0 5%;
     justify-content: space-between;
 }
+/*Styles for banner text*/
 .banner > p {
     font-size: 40px;
     margin: 4% 0;
@@ -85,6 +99,8 @@ body{
     line-height: 30px;
     letter-spacing: 0.05em;
 }
+
+/*Styles for banner button*/
 .banner > button {
     height: 34px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -101,39 +117,45 @@ body{
     color: #0F57FB;
 }
 
-.banner > button:hover{
+/*Styles for hover effect in banner*/
+.banner > button:hover {
     cursor: pointer;
     transform: scale(1.025);
 }
 
-.sub-heading{
+/*Styles for sub-heading text*/
+.sub-heading {
     text-align: center;
     margin-top: 0;
 }
 
+/*Styles for card wrapper*/
 .card-container {
     display: flex;
     flex-wrap: wrap;
 }
-.card{
+
+/*Styles for card design*/
+.card {
     width: 30%;
     margin: 0 auto 10px;
     background: white;
-    box-shadow: 2px white;
+    box-shadow: 2px 2px white;
     border-radius: 10px;
     padding: 10px;
-    -webkit-box-shadow: 4px 4px 10px 4px rgba(88,88,88,0.33);
     box-shadow: 4px 4px 10px 4px rgba(88,88,88,0.33);
     display: flex;
     flex-direction: column;
 }
 
+/*Styles for larger screen*/
 @media screen and (max-width:880px) {
     .card{
         width: 45%;
     }
 }
 
+/*Styles for tablet*/
 @media only screen and (max-width:760px){
    .banner > p {
     font-size: 30px;
@@ -142,6 +164,8 @@ body{
     font-size: 12px;
    }
 }
+
+/*Styles for mobile */
 @media only screen and (max-width:650px){
     .logo {
         width: 100%;
@@ -167,6 +191,7 @@ body{
     }
  }
 
+/*Styles for mobile */
 @media only screen and (max-width:550px){
     .banner > p {
      font-size: 22px;
@@ -183,6 +208,7 @@ body{
     }
 }
 
+/*Styles for small screen mobile */
 @media only screen and (max-width:480px){
     .card{
         width: 100%;

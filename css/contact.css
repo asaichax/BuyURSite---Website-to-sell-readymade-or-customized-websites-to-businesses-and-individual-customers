@@ -1,47 +1,65 @@
-.sub-text{
+/* Style sheet created by: Group(Tanej, Karthik, Saichand, Umanga, Yuzan) */
+/*Styles specific to contact page*/
+
+/*styles for text*/
+.sub-text {
     width: 50%;
 }
+/*styles for image in sub-text*/
 .sub-text > img {
     width: 100%;
 }
-.sb{
+
+/*styles for common flex model*/
+.sb {
     justify-content: space-between;
 }
-.form-container{
+
+/*styles for form container*/
+.form-container {
     width: 44%;
     padding: 2%;
-    background: white;
-    box-shadow: 2px white;
+    background: #FFFFFF;
+    box-shadow: 2px 2px #FFFFFF;
     border-radius: 10px;
-    -webkit-box-shadow: 4px 4px 10px 4px rgba(88,88,88,0.33);
     box-shadow: 4px 4px 10px 4px rgba(88,88,88,0.33);
     display: flex;
     flex-wrap: wrap;
 }
+
+/*styles for form*/
 form {
     display: flex;
     flex-wrap: wrap;
 }
-.form-controller-50{
+
+/*styles for form elements*/
+.form-controller-50 {
     width: 50%;
     display: flex;
 }
+
+/*styles for form elements*/
 .form-controller-100{
     width: 100%;
 }
 
+/*styles for form elements*/
 .width-99{
     width: 99%;
 }
 
+/*styles for form elements*/
 .firstname{
     margin: auto 1% 10px auto;
 }
 
+/*styles for form elements*/
 .lastname{
     margin: auto auto 10px 1%;
 }
 
+/*styles for form elements*/
 input, select, textarea {
     padding: 5px;
     font-family: 'Poppins';
@@ -50,21 +68,25 @@ input, select, textarea {
     background: #F8F8F8;
 }
 
+/*styles for focus effect for form elements*/
 input:focus, select:focus, textarea:focus {
     border: 1px solid #0F57FB;
 }
 
+/*styles for textarea form elements*/
 textarea {
     width: 98%;
     margin-bottom: 10px;
 }
 
+/*styles for select form elements*/
 select {
     width: 100%;
     margin-bottom: 10px;
 }
 
-input[type=submit]{
+/*styles for input form elements*/
+input[type=submit] {
     width: 30%;
     background: #0F57FB;
     color: white;
@@ -80,15 +102,19 @@ input[type=submit]{
     line-height: 15px;
 }
 
-input[type=submit]:hover{
+/*styles for hover effect on input form elements*/
+input[type=submit]:hover {
     transform: scale(1.025);
     cursor: pointer;
 }
 
-.card-container{
+
+/*styles for card container*/
+.card-container {
     margin-bottom: 15px;
 }
 
+/*styles for tablet*/
 @media only screen and (max-width:760px){
     .card-container{
         display: block;
@@ -102,8 +128,4 @@ input[type=submit]:hover{
     .firstname, .lastname, .form-controller-100{
         margin: 10px;
     }
-}
-
-@media only screen and (max-width:480px){
-
 }
