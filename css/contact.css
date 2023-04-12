@@ -77,6 +77,7 @@ input:focus, select:focus, textarea:focus {
 textarea {
     width: 98%;
     margin-bottom: 10px;
+    resize: vertical;
 }
 
 /*styles for select form elements*/
