@@ -1,0 +1,59 @@
+/* Style sheet created by: Group(Tanej, Karthik, Saichand, Umanga, Yuzan) */
+/*Styles specific to about page*/
+
+/*styles for text elements*/
+.inner-box {
+    width: 48%;
+    margin-right: 2%;
+}
+
+/*styles for header in container*/
+.inner-box > h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 1.5px;
+    color: #000000;
+}
+/*styles for paragraph in container*/
+.inner-box > p {
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+/*styles for image in container*/
+img {
+    width: 100%;
+}
+/*styles for image container in container*/
+.img-container {
+    margin-top: 1em;
+}
+/*styles for image in container*/
+.star {
+    width: 20px;
+}
+
+/*styles for review text*/
+.review {
+    margin-top: 0;
+    margin-bottom: auto;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.9);
+    letter-spacing: 0.06em;
+}
+
+/*styles for reviewer text*/
+.reviewer {
+    font-weight: bold;
+}
+
+/*styles for button mobile*/
+@media only screen and (max-width:550px){
+    .inner-box {
+        width: 100%;
+        margin: 0;
+    }
+}
